@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userOverrides>
+    <override>
+        <path>C:\Users\User\Desktop\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\AHardware\USART.hpp</path>
+        <encoding>UTF-8</encoding>
+    </override>
+    <override>
+        <path>D:\Kurs_add\Kurs-Kurs\Kursovoy-master\MyTask\BluetoothTask.hpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\Kurs_add\kurs_new_version\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Application\TemperatureTask.hpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\Kurs_add\kurs_new_version\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\MyTask\TemperatureTask.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\Kurs_add\kurs_new_version\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\Kurs_add\work\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Application\TemperatureDirector.hpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\Kurs_add\work\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\POIP\Git_hub\Kurs\Kursovoy-master\AHardware\TemperatureSensor.hpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\POIP\Git_hub\Kurs\Kursovoy-master\AHardware\USART.hpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\POIP\Git_hub\Kurs\Kursovoy-master\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+</userOverrides>

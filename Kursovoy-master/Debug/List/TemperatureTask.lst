@@ -1,0 +1,1407 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         02/Jun/2020  19:46:42
+# Copyright 1999-2019 IAR Systems AB.
+#
+#    Cpu mode     =  
+#    Endian       =  little
+#    Source file  =
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\MyTask\TemperatureTask.cpp
+#    Command line =
+#        -f C:\Users\User\AppData\Local\Temp\EWA0BE.tmp
+#        (D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\MyTask\TemperatureTask.cpp
+#        -lC
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Debug\List
+#        -lA
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Debug\List
+#        -o
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Debug\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config
+#        D:\Kolody\iarn\arm\inc\c\DLib_Config_Normal.h -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Rtos\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Rtos\wrapper\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Rtos\wrapper\FreeRtos\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Rtos\FreeRtos\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Rtos\FreeRtos\include\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Rtos\FreeRtos\portable\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Rtos\FreeRtos\portable\Common\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Rtos\FreeRtos\portable\IAR\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Rtos\FreeRtos\portable\MemMang\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\MyTasks\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Common\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\CMSIS\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Application\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Application\Diagnostic\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\AHardware\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\AHardware\GpioPort\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\AHardware\IrqController\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\..\CortexLib\AbstractHardware\Pin\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\..\CortexLib\AbstractHardware\Registers\STM32F411\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\..\CortexLib\AbstractHardware\Registers\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\..\CortexLib\AbstractHardware\Port\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\..\CortexLib\AbstractHardware\Atomic\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\..\CortexLib\Common\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\..\CortexLib\Common\Singleton\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\..\CortexLib\AbstractHardware\Spi\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\AHardware\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\..\CortexLib\Common\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\MyTask\
+#        -I
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\AHardware\Fonts\
+#        -Ol --c++ --no_exceptions --no_rtti)
+#    Locale       =  C
+#    List file    =
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Debug\List\TemperatureTask.lst
+#    Object file  =
+#        D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\Debug\Obj\TemperatureTask.o
+#
+###############################################################################
+
+D:\kurs_master_v3\KURSOVOY-master\Kurs_Bluetooth-master\Kurs-Kurs\Kursovoy-master\MyTask\TemperatureTask.cpp
+      1          #include "TemperatureTask.hpp"
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char *std::_Addressof<char>(char &, std::false_type)
+   \                     _ZSt10_AddressofIcEPT_RS0_St17integral_constantIbLb0EE: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char *std::addressof<char>(char &)
+   \                     _ZSt9addressofIcEPT_RS0_: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZSt10_AddressofIcEPT_RS0_St17integral_constantIbLb0EE
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp SusuString<5U> &std::forward<SusuString<5U> &>(SusuString<5U> &)
+   \                     _ZSt7forwardIR10SusuStringILj5EEEOT_RNSt16remove_referenceIS3_E4typeE: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp float &std::forward<float &>(float &)
+   \                     _ZSt7forwardIRfEOT_RNSt16remove_referenceIS1_E4typeE: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp std::pair<SusuString<5U>, float>::pair<SusuString<5U> &, float &, void>(SusuString<5U> &, float &)
+   \                     _ZNSt4pairI10SusuStringILj5EEfEC1IRS1_RfvEEOT_OT0_: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0015             MOVS     R5,R2
+   \        0x6   0x0008             MOVS     R0,R1
+   \        0x8   0x....'....        BL       _ZSt7forwardIR10SusuStringILj5EEEOT_RNSt16remove_referenceIS3_E4typeE
+   \        0xC   0xE890 0x000E      LDM      R0,{R1-R3}
+   \       0x10   0xE884 0x000E      STM      R4,{R1-R3}
+   \       0x14   0x0028             MOVS     R0,R5
+   \       0x16   0x....'....        BL       _ZSt7forwardIRfEOT_RNSt16remove_referenceIS1_E4typeE
+   \       0x1A   0x6800             LDR      R0,[R0, #+0]
+   \       0x1C   0x60E0             STR      R0,[R4, #+12]
+   \       0x1E   0x0020             MOVS     R0,R4
+   \       0x20   0xBD32             POP      {R1,R4,R5,PC}    ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::pair<SusuString<5U>, float> std::make_pair<SusuString<5U> &, float &>(SusuString<5U> &, float &)
+   \                     _ZSt9make_pairIR10SusuStringILj5EERfESt4pairINSt10_UnrefwrapIT_E4typeENS5_IT0_E4typeEEOS6_OS9_: (+1)
+   \        0x0   0xB57F             PUSH     {R0-R6,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+   \        0x6   0x0010             MOVS     R0,R2
+   \        0x8   0x....'....        BL       _ZSt7forwardIRfEOT_RNSt16remove_referenceIS1_E4typeE
+   \        0xC   0x0006             MOVS     R6,R0
+   \        0xE   0x0028             MOVS     R0,R5
+   \       0x10   0x....'....        BL       _ZSt7forwardIR10SusuStringILj5EEEOT_RNSt16remove_referenceIS3_E4typeE
+   \       0x14   0x0032             MOVS     R2,R6
+   \       0x16   0x0001             MOVS     R1,R0
+   \       0x18   0x4668             MOV      R0,SP
+   \       0x1A   0x....'....        BL       _ZNSt4pairI10SusuStringILj5EEfEC1IRS1_RfvEEOT_OT0_
+   \       0x1E   0x0001             MOVS     R1,R0
+   \       0x20   0x0020             MOVS     R0,R4
+   \       0x22   0x2210             MOVS     R2,#+16
+   \       0x24   0x....'....        BL       __aeabi_memcpy4
+   \       0x28   0xBD7F             POP      {R0-R6,PC}       ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char const *std::_Unchecked<char const *>(char const *)
+   \                     _ZSt10_UncheckedIPKcET_S2_: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::_Scalar_ptr_iterator_tag std::_Ptr_cat(char const *, char *)
+   \                     _ZSt8_Ptr_catPKcPc: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp std::_Array_const_iterator<char, 5U>::_Array_const_iterator(char const *, size_t)
+   \                     _ZNSt21_Array_const_iteratorIcLj5EEC1EPKcj: (+1)
+   \        0x0   0x4411             ADD      R1,R1,R2
+   \        0x2   0x6001             STR      R1,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp std::_Array_const_iterator<char, 5U>::subobject _Array_const_iterator(char const *, size_t)
+   \                     _ZNSt21_Array_const_iteratorIcLj5EEC2EPKcj: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZNSt21_Array_const_iteratorIcLj5EEC1EPKcj
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::_Array_const_iterator<char, 5U> &std::_Array_const_iterator<char, 5U>::_Rechecked(char const *)
+   \                     _ZNSt21_Array_const_iteratorIcLj5EE10_RecheckedEPKc: (+1)
+   \        0x0   0x6001             STR      R1,[R0, #+0]
+   \        0x2   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char const * std::_Array_const_iterator<char, 5U>::_Unchecked() const
+   \                     _ZNKSt21_Array_const_iteratorIcLj5EE10_UncheckedEv: (+1)
+   \        0x0   0x6800             LDR      R0,[R0, #+0]
+   \        0x2   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp std::_Array_iterator<char, 5U>::_Array_iterator(char *, size_t)
+   \                     _ZNSt15_Array_iteratorIcLj5EEC1EPcj: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZNSt21_Array_const_iteratorIcLj5EEC2EPKcj
+   \        0xA   0x0020             MOVS     R0,R4
+   \        0xC   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::_Array_iterator<char, 5U> &std::_Array_iterator<char, 5U>::_Rechecked(char *)
+   \                     _ZNSt15_Array_iteratorIcLj5EE10_RecheckedEPc: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZNSt21_Array_const_iteratorIcLj5EE10_RecheckedEPKc
+   \        0xA   0x0020             MOVS     R0,R4
+   \        0xC   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char * std::_Array_iterator<char, 5U>::_Unchecked() const
+   \                     _ZNKSt15_Array_iteratorIcLj5EE10_UncheckedEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZNKSt21_Array_const_iteratorIcLj5EE10_UncheckedEv
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char * std::_Unchecked<char, 5U>(std::_Array_iterator<char, 5U>)
+   \                     _ZSt10_UncheckedIcLj5EENSt15_Array_iteratorIT_XT0_EE15_Unchecked_typeES2_: (+1)
+   \        0x0   0xB501             PUSH     {R0,LR}
+   \        0x2   0x4668             MOV      R0,SP
+   \        0x4   0x....'....        BL       _ZNKSt15_Array_iteratorIcLj5EE10_UncheckedEv
+   \        0x8   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::_Array_iterator<char, 5U> &std::_Rechecked<char, 5U>(std::_Array_iterator<char, 5U> &, char *)
+   \                     _ZSt10_RecheckedIcLj5EERSt15_Array_iteratorIT_XT0_EES3_NS2_15_Unchecked_typeE: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZNSt15_Array_iteratorIcLj5EE10_RecheckedEPc
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char *std::_Copy_impl<char const *, char *>(char const *, char const *, char *, std::_Scalar_ptr_iterator_tag)
+   \                     _ZSt10_Copy_implIPKcPcET0_T_S4_S3_St24_Scalar_ptr_iterator_tag: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x000C             MOVS     R4,R1
+   \        0x4   0x0015             MOVS     R5,R2
+   \        0x6   0x1A24             SUBS     R4,R4,R0
+   \        0x8   0x0022             MOVS     R2,R4
+   \        0xA   0x002E             MOVS     R6,R5
+   \        0xC   0x0001             MOVS     R1,R0
+   \        0xE   0x0030             MOVS     R0,R6
+   \       0x10   0x....'....        BL       __aeabi_memmove
+   \       0x14   0xEB05 0x0004      ADD      R0,R5,R4
+   \       0x18   0xBD70             POP      {R4-R6,PC}       ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char * std::_Copy_impl<char const *, char *>(char const *, char const *, char *)
+   \                     _ZSt10_Copy_implIPKcPcET0_T_S4_S3_: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+   \        0x6   0x0016             MOVS     R6,R2
+   \        0x8   0x0031             MOVS     R1,R6
+   \        0xA   0x0020             MOVS     R0,R4
+   \        0xC   0x....'....        BL       _ZSt8_Ptr_catPKcPc
+   \       0x10   0x0003             MOVS     R3,R0
+   \       0x12   0x0032             MOVS     R2,R6
+   \       0x14   0x0029             MOVS     R1,R5
+   \       0x16   0x0020             MOVS     R0,R4
+   \       0x18   0x....'....        BL       _ZSt10_Copy_implIPKcPcET0_T_S4_S3_St24_Scalar_ptr_iterator_tag
+   \       0x1C   0xBD70             POP      {R4-R6,PC}       ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::array<char, 5U>::iterator std::copy<char const *, std::array<char, 5U>::iterator>(char const *, char const *, std::array<char, 5U>::iterator)
+   \                     _ZSt4copyIPKcSt15_Array_iteratorIcLj5EEET0_T_S5_S4_: (+1)
+   \        0x0   0xB576             PUSH     {R1,R2,R4-R6,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+   \        0x6   0x9801             LDR      R0,[SP, #+4]
+   \        0x8   0x....'....        BL       _ZSt10_UncheckedIcLj5EENSt15_Array_iteratorIT_XT0_EE15_Unchecked_typeES2_
+   \        0xC   0x0006             MOVS     R6,R0
+   \        0xE   0x0028             MOVS     R0,R5
+   \       0x10   0x....'....        BL       _ZSt10_UncheckedIPKcET_S2_
+   \       0x14   0x0005             MOVS     R5,R0
+   \       0x16   0x0020             MOVS     R0,R4
+   \       0x18   0x....'....        BL       _ZSt10_UncheckedIPKcET_S2_
+   \       0x1C   0x0032             MOVS     R2,R6
+   \       0x1E   0x0029             MOVS     R1,R5
+   \       0x20   0x....'....        BL       _ZSt10_Copy_implIPKcPcET0_T_S4_S3_
+   \       0x24   0x0001             MOVS     R1,R0
+   \       0x26   0xA801             ADD      R0,SP,#+4
+   \       0x28   0x....'....        BL       _ZSt10_RecheckedIcLj5EERSt15_Array_iteratorIT_XT0_EES3_NS2_15_Unchecked_typeE
+   \       0x2C   0x6800             LDR      R0,[R0, #+0]
+   \       0x2E   0xBD76             POP      {R1,R2,R4-R6,PC}  ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::array<char, 5U>::iterator std::array<char, 5U>::begin()
+   \                     _ZNSt5arrayIcLj5EE5beginEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZSt9addressofIcEPT_RS0_
+   \        0x6   0x2200             MOVS     R2,#+0
+   \        0x8   0x0001             MOVS     R1,R0
+   \        0xA   0x4668             MOV      R0,SP
+   \        0xC   0x....'....        BL       _ZNSt15_Array_iteratorIcLj5EEC1EPcj
+   \       0x10   0x6800             LDR      R0,[R0, #+0]
+   \       0x12   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp IUnits const *& std::array<IUnits const *, 3U>::operator[](size_t)
+   \                     _ZNSt5arrayIPK6IUnitsLj3EEixEj: (+1)
+   \        0x0   0xEB00 0x0081      ADD      R0,R0,R1, LSL #+2
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char const *std::array<char, 5U>::data() const
+   \                     _ZNKSt5arrayIcLj5EE4dataEv: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp SusuString<5U>::SusuString()
+   \                     _ZN10SusuStringILj5EEC1Ev: (+1)
+   \        0x0   0x2105             MOVS     R1,#+5
+   \        0x2   0x6081             STR      R1,[R0, #+8]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void SusuString<5U>::Set<3U>(char const (&)[3])
+   \                     _ZN10SusuStringILj5EE3SetILj3EEEvRAT__Kc: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x000C             MOVS     R4,R1
+   \        0x4   0x....'....        BL       _ZNSt5arrayIcLj5EE5beginEv
+   \        0x8   0x0002             MOVS     R2,R0
+   \        0xA   0x1CA1             ADDS     R1,R4,#+2
+   \        0xC   0x0020             MOVS     R0,R4
+   \        0xE   0x....'....        BL       _ZSt4copyIPKcSt15_Array_iteratorIcLj5EEET0_T_S5_S4_
+   \       0x12   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void SusuString<5U>::Set<5U>(char const (&)[5])
+   \                     _ZN10SusuStringILj5EE3SetILj5EEEvRAT__Kc: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x000C             MOVS     R4,R1
+   \        0x4   0x....'....        BL       _ZNSt5arrayIcLj5EE5beginEv
+   \        0x8   0x0002             MOVS     R2,R0
+   \        0xA   0x1D21             ADDS     R1,R4,#+4
+   \        0xC   0x0020             MOVS     R0,R4
+   \        0xE   0x....'....        BL       _ZSt4copyIPKcSt15_Array_iteratorIcLj5EEET0_T_S5_S4_
+   \       0x12   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char const *SusuString<5U>::GetString() const
+   \                     _ZNK10SusuStringILj5EE9GetStringEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZNKSt5arrayIcLj5EE4dataEv
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp OsWrapper::TicksPerSecond std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+   \                     _ZNSt6chrono13duration_castINS_8durationIjSt5ratioILx10ELx1000EEEExS2_ILx1ELx1000EEEENSt9enable_ifIXsr3std6chrono12_Is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE: (+1)
+   \        0x0   0xB5E0             PUSH     {R5-R7,LR}
+   \        0x2   0x....'....        BL       _ZNKSt6chrono8durationIxSt5ratioILx1ELx1000EEE5countEv
+   \        0x6   0x220A             MOVS     R2,#+10
+   \        0x8   0x2300             MOVS     R3,#+0
+   \        0xA   0x....'....        BL       __aeabi_ldivmod
+   \        0xE   0x9001             STR      R0,[SP, #+4]
+   \       0x10   0xA901             ADD      R1,SP,#+4
+   \       0x12   0x4668             MOV      R0,SP
+   \       0x14   0x....'....        BL       _ZNSt6chrono8durationIjSt5ratioILx10ELx1000EEEC1IjvEERKT_
+   \       0x18   0x9800             LDR      R0,[SP, #+0]
+   \       0x1A   0xBD0E             POP      {R1-R3,PC}       ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+   \                     _ZNSt6chrono8durationIjSt5ratioILx10ELx1000EEEC1IjvEERKT_: (+1)
+   \        0x0   0x6809             LDR      R1,[R1, #+0]
+   \        0x2   0x6001             STR      R1,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp __int64_t std::chrono::duration<__int64_t, std::milli>::count() const
+   \                     _ZNKSt6chrono8durationIxSt5ratioILx1ELx1000EEE5countEv: (+1)
+   \        0x0   0xE9D0 0x0100      LDRD     R0,R1,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp uint32_t std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+   \                     _ZNKSt6chrono8durationIjSt5ratioILx10ELx1000EEE5countEv: (+1)
+   \        0x0   0x6800             LDR      R0,[R0, #+0]
+   \        0x2   0x4770             BX       LR               ;; return
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::system_clock::is_steady
+   \                     _ZNSt6chrono12system_clock9is_steadyE:
+   \        0x0   0x00               DC8 0
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::system_clock::is_monotonic
+   \                     _ZNSt6chrono12system_clock12is_monotonicE:
+   \        0x0   0x00               DC8 0
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::steady_clock::is_steady
+   \                     _ZNSt6chrono12steady_clock9is_steadyE:
+   \        0x0   0x01               DC8 1
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void OsWrapper::RtosWrapper::wSleep(uint32_t)
+   \                     _ZN9OsWrapper11RtosWrapper6wSleepEj: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       vTaskDelay
+   \        0x6   0xBD01             POP      {R0,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::IThread::subobject IThread()
+   \                     _ZN9OsWrapper7IThreadC2Ev: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZN9OsWrapper7IThreadC1Ev
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::IThread::IThread()
+   \                     _ZN9OsWrapper7IThreadC1Ev: (+1)
+   \        0x0   0x2100             MOVS     R1,#+0
+   \        0x2   0x6541             STR      R1,[R0, #+84]
+   \        0x4   0x2100             MOVS     R1,#+0
+   \        0x6   0x6581             STR      R1,[R0, #+88]
+   \        0x8   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+   \                     _ZN9OsWrapper7IThread5SleepENSt6chrono8durationIxSt5ratioILx1ELx1000EEEE: (+1)
+   \        0x0   0xB583             PUSH     {R0,R1,R7,LR}
+   \        0x2   0xB082             SUB      SP,SP,#+8
+   \        0x4   0xA802             ADD      R0,SP,#+8
+   \        0x6   0x....'....        BL       _ZNSt6chrono13duration_castINS_8durationIjSt5ratioILx10ELx1000EEEExS2_ILx1ELx1000EEEENSt9enable_ifIXsr3std6chrono12_Is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE
+   \        0xA   0x9000             STR      R0,[SP, #+0]
+   \        0xC   0x4668             MOV      R0,SP
+   \        0xE   0x....'....        BL       _ZNKSt6chrono8durationIjSt5ratioILx10ELx1000EEE5countEv
+   \       0x12   0x....'....        BL       _ZN9OsWrapper11RtosWrapper6wSleepEj
+   \       0x16   0xB005             ADD      SP,SP,#+20
+   \       0x18   0xBD00             POP      {PC}             ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::Thread<512U>::subobject Thread()
+   \                     _ZN9OsWrapper6ThreadILj512EEC2Ev: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZN9OsWrapper6ThreadILj512EEC1Ev
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::Thread<512U>::Thread()
+   \                     _ZN9OsWrapper6ThreadILj512EEC1Ev: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN9OsWrapper7IThreadC2Ev
+   \        0xA   0x0020             MOVS     R0,R4
+   \        0xC   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp uint16_t SMBus<I2C1>::ReadWord(uint8_t)
+   \                     _ZN5SMBusI4I2C1E8ReadWordEh: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x....'....        BL       _ZN14FieldValueBaseI21I2C1_CR1_START_ValuesIN4I2C13CR1ELj8ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj1EE3SetIS3_vEEvv
+   \        0x8   0x....'....        BL       _ZN14FieldValueBaseI19I2C1_CR1_ACK_ValuesIN4I2C13CR1ELj10ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj1EE3SetIS3_vEEvv
+   \                     ??ReadWord_0: (+1)
+   \        0xC   0x....'....        BL       _ZN14FieldValueBaseI18I2C1_SR1_SB_ValuesIN4I2C13SR1ELj0ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD1FB             BNE.N    ??ReadWord_0
+   \       0x14   0x2000             MOVS     R0,#+0
+   \       0x16   0x....'....        BL       _ZN12RegisterBaseILj1073763344ELj32E13ReadWriteModeE5WriteIS0_vEEvj
+   \                     ??ReadWord_1: (+1)
+   \       0x1A   0x....'....        BL       _ZN14FieldValueBaseI20I2C1_SR1_ADDR_ValuesIN4I2C13SR1ELj1ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv
+   \       0x1E   0x2800             CMP      R0,#+0
+   \       0x20   0xD1FB             BNE.N    ??ReadWord_1
+   \       0x22   0x....'....        BL       _ZN12RegisterBaseILj1073763348ELj32E13ReadWriteModeE3GetIS0_vEEjv
+   \       0x26   0x....'....        BL       _ZN12RegisterBaseILj1073763352ELj32E8ReadModeE3GetIS0_vEEjv
+   \                     ??ReadWord_2: (+1)
+   \       0x2A   0x....'....        BL       _ZN14FieldValueBaseI19I2C1_SR1_TxE_ValuesIN4I2C13SR1ELj7ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv
+   \       0x2E   0x2800             CMP      R0,#+0
+   \       0x30   0xD1FB             BNE.N    ??ReadWord_2
+   \       0x32   0xB2E4             UXTB     R4,R4            ;; ZeroExt  R4,R4,#+24,#+24
+   \       0x34   0x0020             MOVS     R0,R4
+   \       0x36   0x....'....        BL       _ZN12RegisterBaseILj1073763344ELj32E13ReadWriteModeE5WriteIS0_vEEvj
+   \                     ??ReadWord_3: (+1)
+   \       0x3A   0x....'....        BL       _ZN14FieldValueBaseI19I2C1_SR1_TxE_ValuesIN4I2C13SR1ELj7ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv
+   \       0x3E   0x2800             CMP      R0,#+0
+   \       0x40   0xD1FB             BNE.N    ??ReadWord_3
+   \       0x42   0x....'....        BL       _ZN14FieldValueBaseI21I2C1_CR1_START_ValuesIN4I2C13CR1ELj8ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj1EE3SetIS3_vEEvv
+   \                     ??ReadWord_4: (+1)
+   \       0x46   0x....'....        BL       _ZN14FieldValueBaseI18I2C1_SR1_SB_ValuesIN4I2C13SR1ELj0ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv
+   \       0x4A   0x2800             CMP      R0,#+0
+   \       0x4C   0xD1FB             BNE.N    ??ReadWord_4
+   \       0x4E   0x2001             MOVS     R0,#+1
+   \       0x50   0x....'....        BL       _ZN12RegisterBaseILj1073763344ELj32E13ReadWriteModeE5WriteIS0_vEEvj
+   \                     ??ReadWord_5: (+1)
+   \       0x54   0x....'....        BL       _ZN14FieldValueBaseI20I2C1_SR1_ADDR_ValuesIN4I2C13SR1ELj1ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv
+   \       0x58   0x2800             CMP      R0,#+0
+   \       0x5A   0xD1FB             BNE.N    ??ReadWord_5
+   \       0x5C   0x....'....        BL       _ZN14FieldValueBaseI19I2C1_CR1_ACK_ValuesIN4I2C13CR1ELj10ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj0EE3SetIS3_vEEvv
+   \       0x60   0x....'....        BL       _ZN14FieldValueBaseI19I2C1_CR1_POS_ValuesIN4I2C13CR1ELj11ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj1EE3SetIS3_vEEvv
+   \       0x64   0x....'....        BL       _ZN12RegisterBaseILj1073763348ELj32E13ReadWriteModeE3GetIS0_vEEjv
+   \       0x68   0x....'....        BL       _ZN12RegisterBaseILj1073763352ELj32E8ReadModeE3GetIS0_vEEjv
+   \                     ??ReadWord_6: (+1)
+   \       0x6C   0x....'....        BL       _ZN14FieldValueBaseI19I2C1_SR1_BTF_ValuesIN4I2C13SR1ELj2ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv
+   \       0x70   0x2800             CMP      R0,#+0
+   \       0x72   0xD1FB             BNE.N    ??ReadWord_6
+   \       0x74   0x....'....        BL       _ZN14FieldValueBaseI20I2C1_CR1_STOP_ValuesIN4I2C13CR1ELj9ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj1EE3SetIS3_vEEvv
+   \       0x78   0x....'....        BL       _ZN12RegisterBaseILj1073763344ELj32E13ReadWriteModeE3GetIS0_vEEjv
+   \       0x7C   0x0004             MOVS     R4,R0
+   \       0x7E   0x....'....        BL       _ZN12RegisterBaseILj1073763344ELj32E13ReadWriteModeE3GetIS0_vEEjv
+   \       0x82   0x0200             LSLS     R0,R0,#+8
+   \       0x84   0xFA10 0xF084      UXTAH    R0,R0,R4
+   \       0x88   0xB280             UXTH     R0,R0            ;; ZeroExt  R0,R0,#+16,#+16
+   \       0x8A   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .rodata, align 4
+   \   __absolute float const Filter::dt
+   \                     _ZN6Filter2dtE:
+   \        0x0   0x42C8'0000        DC32 0x42c8'0000
+
+   \                                 In section .rodata, align 4
+   \   __absolute float const Filter::RC
+   \                     _ZN6Filter2RCE:
+   \        0x0   0x447A'0000        DC32 0x447a'0000
+
+   \                                 In section .bss, align 4
+   \   __absolute float const Filter::tay
+   \                     _ZN6Filter3tayE:
+   \        0x0                      DS8 4
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp float Filter::Update(float)
+   \                     _ZN6Filter6UpdateEf: (+1)
+   \        0x0   0xEDD0 0x0A00      VLDR     S1,[R0, #0]
+   \        0x4   0xEE70 0x0A60      VSUB.F32 S1,S0,S1
+   \        0x8   0x4904             LDR.N    R1,??Update_0
+   \        0xA   0xED91 0x1A00      VLDR     S2,[R1, #0]
+   \        0xE   0xED90 0x0A00      VLDR     S0,[R0, #0]
+   \       0x12   0xEE00 0x0A81      VMLA.F32 S0,S1,S2
+   \       0x16   0xED80 0x0A00      VSTR     S0,[R0, #0]
+   \       0x1A   0x4770             BX       LR               ;; return
+   \                     ??Update_0:
+   \       0x1C   0x....'....        DC32     _ZN6Filter3tayE
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp float Filter::GetOldFilteredValue(float)
+   \                     _ZN6Filter19GetOldFilteredValueEf: (+1)
+   \        0x0   0xEDD0 0x0A00      VLDR     S1,[R0, #0]
+   \        0x4   0xEE70 0x0A60      VSUB.F32 S1,S0,S1
+   \        0x8   0x4904             LDR.N    R1,??GetOldFilteredValue_0
+   \        0xA   0xED91 0x1A00      VLDR     S2,[R1, #0]
+   \        0xE   0xED90 0x0A00      VLDR     S0,[R0, #0]
+   \       0x12   0xEE00 0x0A81      VMLA.F32 S0,S1,S2
+   \       0x16   0xED80 0x0A00      VSTR     S0,[R0, #0]
+   \       0x1A   0x4770             BX       LR               ;; return
+   \                     ??GetOldFilteredValue_0:
+   \       0x1C   0x....'....        DC32     _ZN6Filter3tayE
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp float TemperatureSensor<SMBus<I2C1>>::GetTemperature()
+   \                     _ZN17TemperatureSensorI5SMBusI4I2C1EE14GetTemperatureEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x2007             MOVS     R0,#+7
+   \        0x4   0x....'....        BL       _ZN5SMBusI4I2C1E8ReadWordEh
+   \        0x8   0xEE00 0x0A10      VMOV     S0,R0
+   \        0xC   0xEEF8 0x0A40      VCVT.F32.U32 S1,S0
+   \       0x10   0xED9F 0x1A03      VLDR.W   S2,??GetTemperature_0  ;; 0x3ca3d70a
+   \       0x14   0xED9F 0x0A03      VLDR.W   S0,??GetTemperature_0+0x4  ;; 0xc3889333
+   \       0x18   0xEE00 0x0A81      VMLA.F32 S0,S1,S2
+   \       0x1C   0xBD01             POP      {R0,PC}          ;; return
+   \       0x1E   0xBF00             Nop      
+   \                     ??GetTemperature_0:
+   \       0x20   0x3CA3'D70A        DC32     0x3ca3d70a
+   \       0x24   0xC388'9333        DC32     0xc3889333
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp void FieldValueBase<I2C1_CR1_START_Values<I2C1::CR1, 8U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+   \                     _ZN14FieldValueBaseI21I2C1_CR1_START_ValuesIN4I2C13CR1ELj8ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj1EE3SetIS3_vEEvv: (+1)
+   \        0x0   0x4903             LDR.N    R1,??Set_0       ;; 0x40005400
+   \        0x2   0x6808             LDR      R0,[R1, #+0]
+   \        0x4   0xF430 0x7080      BICS     R0,R0,#0x100
+   \        0x8   0xF450 0x7080      ORRS     R0,R0,#0x100
+   \        0xC   0x6008             STR      R0,[R1, #+0]
+   \        0xE   0x4770             BX       LR               ;; return
+   \                     ??Set_0:
+   \       0x10   0x4000'5400        DC32     0x40005400
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp void FieldValueBase<I2C1_CR1_ACK_Values<I2C1::CR1, 10U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+   \                     _ZN14FieldValueBaseI19I2C1_CR1_ACK_ValuesIN4I2C13CR1ELj10ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj1EE3SetIS3_vEEvv: (+1)
+   \        0x0   0x4903             LDR.N    R1,??Set_1       ;; 0x40005400
+   \        0x2   0x6808             LDR      R0,[R1, #+0]
+   \        0x4   0xF430 0x6080      BICS     R0,R0,#0x400
+   \        0x8   0xF450 0x6080      ORRS     R0,R0,#0x400
+   \        0xC   0x6008             STR      R0,[R1, #+0]
+   \        0xE   0x4770             BX       LR               ;; return
+   \                     ??Set_1:
+   \       0x10   0x4000'5400        DC32     0x40005400
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp void FieldValueBase<I2C1_CR1_ACK_Values<I2C1::CR1, 10U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 0U>::Set<ReadWriteMode, void>()
+   \                     _ZN14FieldValueBaseI19I2C1_CR1_ACK_ValuesIN4I2C13CR1ELj10ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj0EE3SetIS3_vEEvv: (+1)
+   \        0x0   0x4902             LDR.N    R1,??Set_2       ;; 0x40005400
+   \        0x2   0x6808             LDR      R0,[R1, #+0]
+   \        0x4   0xF430 0x6080      BICS     R0,R0,#0x400
+   \        0x8   0x6008             STR      R0,[R1, #+0]
+   \        0xA   0x4770             BX       LR               ;; return
+   \                     ??Set_2:
+   \        0xC   0x4000'5400        DC32     0x40005400
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp void FieldValueBase<I2C1_CR1_POS_Values<I2C1::CR1, 11U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+   \                     _ZN14FieldValueBaseI19I2C1_CR1_POS_ValuesIN4I2C13CR1ELj11ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj1EE3SetIS3_vEEvv: (+1)
+   \        0x0   0x4903             LDR.N    R1,??Set_3       ;; 0x40005400
+   \        0x2   0x6808             LDR      R0,[R1, #+0]
+   \        0x4   0xF430 0x6000      BICS     R0,R0,#0x800
+   \        0x8   0xF450 0x6000      ORRS     R0,R0,#0x800
+   \        0xC   0x6008             STR      R0,[R1, #+0]
+   \        0xE   0x4770             BX       LR               ;; return
+   \                     ??Set_3:
+   \       0x10   0x4000'5400        DC32     0x40005400
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp void FieldValueBase<I2C1_CR1_STOP_Values<I2C1::CR1, 9U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+   \                     _ZN14FieldValueBaseI20I2C1_CR1_STOP_ValuesIN4I2C13CR1ELj9ELj1E13ReadWriteModeNS1_11I2C1CR1BaseEES4_Lj1EE3SetIS3_vEEvv: (+1)
+   \        0x0   0x4903             LDR.N    R1,??Set_4       ;; 0x40005400
+   \        0x2   0x6808             LDR      R0,[R1, #+0]
+   \        0x4   0xF430 0x7000      BICS     R0,R0,#0x200
+   \        0x8   0xF450 0x7000      ORRS     R0,R0,#0x200
+   \        0xC   0x6008             STR      R0,[R1, #+0]
+   \        0xE   0x4770             BX       LR               ;; return
+   \                     ??Set_4:
+   \       0x10   0x4000'5400        DC32     0x40005400
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp bool FieldValueBase<I2C1_SR1_SB_Values<I2C1::SR1, 0U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+   \                     _ZN14FieldValueBaseI18I2C1_SR1_SB_ValuesIN4I2C13SR1ELj0ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv: (+1)
+   \        0x0   0x4803             LDR.N    R0,??IsSet_0     ;; 0x40005414
+   \        0x2   0x6800             LDR      R0,[R0, #+0]
+   \        0x4   0xF010 0x0001      ANDS     R0,R0,#0x1
+   \        0x8   0xF090 0x0001      EORS     R0,R0,#0x1
+   \        0xC   0xB2C0             UXTB     R0,R0            ;; ZeroExt  R0,R0,#+24,#+24
+   \        0xE   0x4770             BX       LR               ;; return
+   \                     ??IsSet_0:
+   \       0x10   0x4000'5414        DC32     0x40005414
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp bool FieldValueBase<I2C1_SR1_ADDR_Values<I2C1::SR1, 1U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+   \                     _ZN14FieldValueBaseI20I2C1_SR1_ADDR_ValuesIN4I2C13SR1ELj1ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv: (+1)
+   \        0x0   0x4804             LDR.N    R0,??IsSet_1     ;; 0x40005414
+   \        0x2   0x6800             LDR      R0,[R0, #+0]
+   \        0x4   0x0840             LSRS     R0,R0,#+1
+   \        0x6   0xF010 0x0001      ANDS     R0,R0,#0x1
+   \        0xA   0xF090 0x0001      EORS     R0,R0,#0x1
+   \        0xE   0xB2C0             UXTB     R0,R0            ;; ZeroExt  R0,R0,#+24,#+24
+   \       0x10   0x4770             BX       LR               ;; return
+   \       0x12   0xBF00             Nop      
+   \                     ??IsSet_1:
+   \       0x14   0x4000'5414        DC32     0x40005414
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp bool FieldValueBase<I2C1_SR1_TxE_Values<I2C1::SR1, 7U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+   \                     _ZN14FieldValueBaseI19I2C1_SR1_TxE_ValuesIN4I2C13SR1ELj7ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv: (+1)
+   \        0x0   0x4804             LDR.N    R0,??IsSet_2     ;; 0x40005414
+   \        0x2   0x6800             LDR      R0,[R0, #+0]
+   \        0x4   0x09C0             LSRS     R0,R0,#+7
+   \        0x6   0xF010 0x0001      ANDS     R0,R0,#0x1
+   \        0xA   0xF090 0x0001      EORS     R0,R0,#0x1
+   \        0xE   0xB2C0             UXTB     R0,R0            ;; ZeroExt  R0,R0,#+24,#+24
+   \       0x10   0x4770             BX       LR               ;; return
+   \       0x12   0xBF00             Nop      
+   \                     ??IsSet_2:
+   \       0x14   0x4000'5414        DC32     0x40005414
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp bool FieldValueBase<I2C1_SR1_BTF_Values<I2C1::SR1, 2U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+   \                     _ZN14FieldValueBaseI19I2C1_SR1_BTF_ValuesIN4I2C13SR1ELj2ELj1E8ReadModeNS1_11I2C1SR1BaseEES4_Lj0EE5IsSetIS3_vEEbv: (+1)
+   \        0x0   0x4804             LDR.N    R0,??IsSet_3     ;; 0x40005414
+   \        0x2   0x6800             LDR      R0,[R0, #+0]
+   \        0x4   0x0880             LSRS     R0,R0,#+2
+   \        0x6   0xF010 0x0001      ANDS     R0,R0,#0x1
+   \        0xA   0xF090 0x0001      EORS     R0,R0,#0x1
+   \        0xE   0xB2C0             UXTB     R0,R0            ;; ZeroExt  R0,R0,#+24,#+24
+   \       0x10   0x4770             BX       LR               ;; return
+   \       0x12   0xBF00             Nop      
+   \                     ??IsSet_3:
+   \       0x14   0x4000'5414        DC32     0x40005414
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp void RegisterBase<1073763344U, 32U, ReadWriteMode>::Write<ReadWriteMode, void>(uint32_t)
+   \                     _ZN12RegisterBaseILj1073763344ELj32E13ReadWriteModeE5WriteIS0_vEEvj: (+1)
+   \        0x0   0x4901             LDR.N    R1,??Write_0     ;; 0x40005410
+   \        0x2   0x6008             STR      R0,[R1, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+   \        0x6   0xBF00             Nop      
+   \                     ??Write_0:
+   \        0x8   0x4000'5410        DC32     0x40005410
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp uint32_t RegisterBase<1073763344U, 32U, ReadWriteMode>::Get<ReadWriteMode, void>()
+   \                     _ZN12RegisterBaseILj1073763344ELj32E13ReadWriteModeE3GetIS0_vEEjv: (+1)
+   \        0x0   0x4801             LDR.N    R0,??Get_0       ;; 0x40005410
+   \        0x2   0x6800             LDR      R0,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+   \        0x6   0xBF00             Nop      
+   \                     ??Get_0:
+   \        0x8   0x4000'5410        DC32     0x40005410
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp uint32_t RegisterBase<1073763348U, 32U, ReadWriteMode>::Get<ReadWriteMode, void>()
+   \                     _ZN12RegisterBaseILj1073763348ELj32E13ReadWriteModeE3GetIS0_vEEjv: (+1)
+   \        0x0   0x4801             LDR.N    R0,??Get_1       ;; 0x40005414
+   \        0x2   0x6800             LDR      R0,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+   \        0x6   0xBF00             Nop      
+   \                     ??Get_1:
+   \        0x8   0x4000'5414        DC32     0x40005414
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp uint32_t RegisterBase<1073763352U, 32U, ReadMode>::Get<ReadMode, void>()
+   \                     _ZN12RegisterBaseILj1073763352ELj32E8ReadModeE3GetIS0_vEEjv: (+1)
+   \        0x0   0x4801             LDR.N    R0,??Get_2       ;; 0x40005418
+   \        0x2   0x6800             LDR      R0,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+   \        0x6   0xBF00             Nop      
+   \                     ??Get_2:
+   \        0x8   0x4000'5418        DC32     0x40005418
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp float TemperatureDirector::Calcute()
+   \                     _ZN19TemperatureDirector7CalcuteEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN17TemperatureSensorI5SMBusI4I2C1EE14GetTemperatureEv
+   \        0xA   0xED84 0x0A02      VSTR     S0,[R4, #+8]
+   \        0xE   0xED94 0x0A02      VLDR     S0,[R4, #+8]
+   \       0x12   0x1D20             ADDS     R0,R4,#+4
+   \       0x14   0x....'....        BL       _ZN6Filter6UpdateEf
+   \       0x18   0xED94 0x0A02      VLDR     S0,[R4, #+8]
+   \       0x1C   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp float TemperatureDirector::GetOldFilterValue()
+   \                     _ZN19TemperatureDirector17GetOldFilterValueEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0xED90 0x0A02      VLDR     S0,[R0, #+8]
+   \        0x6   0x1D00             ADDS     R0,R0,#+4
+   \        0x8   0x....'....        BL       _ZN6Filter19GetOldFilteredValueEf
+   \        0xC   0xBD01             POP      {R0,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp IVariable::subobject IVariable()
+   \                     _ZN9IVariableC2Ev: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZN9IVariableC1Ev
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp IVariable::IVariable()
+   \                     _ZN9IVariableC1Ev: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp vFormat Kelvin::GetTemperature(float) const
+   \                     _ZNK6Kelvin14GetTemperatureEf: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0xEDDF 0x0A0D      VLDR.W   S1,??GetTemperature_1  ;; 0xc2000000
+   \        0x8   0xEE30 0x0A20      VADD.F32 S0,S0,S1
+   \        0xC   0xEDDF 0x0A0C      VLDR.W   S1,??GetTemperature_1+0x4  ;; 0x3fe66666
+   \       0x10   0xED9F 0x1A0C      VLDR.W   S2,??GetTemperature_1+0x8  ;; 0x43889333
+   \       0x14   0xEE00 0x1A20      VMLA.F32 S2,S0,S1
+   \       0x18   0xED9F 0x0A0B      VLDR.W   S0,??GetTemperature_1+0xC  ;; 0x42100000
+   \       0x1C   0xEE31 0x0A00      VADD.F32 S0,S2,S0
+   \       0x20   0xED8D 0x0A00      VSTR     S0,[SP, #+0]
+   \       0x24   0xA801             ADD      R0,SP,#+4
+   \       0x26   0x....'....        BL       _ZN10SusuStringILj5EEC1Ev
+   \       0x2A   0x4908             LDR.N    R1,??GetTemperature_1+0x10
+   \       0x2C   0x....'....        BL       _ZN10SusuStringILj5EE3SetILj3EEEvRAT__Kc
+   \       0x30   0x466A             MOV      R2,SP
+   \       0x32   0xA901             ADD      R1,SP,#+4
+   \       0x34   0x0020             MOVS     R0,R4
+   \       0x36   0x....'....        BL       _ZSt9make_pairIR10SusuStringILj5EERfESt4pairINSt10_UnrefwrapIT_E4typeENS5_IT0_E4typeEEOS6_OS9_
+   \       0x3A   0xBD1F             POP      {R0-R4,PC}       ;; return
+   \                     ??GetTemperature_1:
+   \       0x3C   0xC200'0000        DC32     0xc2000000
+   \       0x40   0x3FE6'6666        DC32     0x3fe66666
+   \       0x44   0x4388'9333        DC32     0x43889333
+   \       0x48   0x4210'0000        DC32     0x42100000
+   \       0x4C   0x....'....        DC32     _ZZNK6Kelvin14GetTemperatureEfEs
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp vFormat Celsius::GetTemperature(float) const
+   \                     _ZNK7Celsius14GetTemperatureEf: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0xEDDF 0x0A0B      VLDR.W   S1,??GetTemperature_2  ;; 0xc2000000
+   \        0x8   0xEE30 0x0A20      VADD.F32 S0,S0,S1
+   \        0xC   0xEDDF 0x0A0A      VLDR.W   S1,??GetTemperature_2+0x4  ;; 0x3fe66666
+   \       0x10   0xED9F 0x1A0A      VLDR.W   S2,??GetTemperature_2+0x8  ;; 0x42100000
+   \       0x14   0xEE00 0x1A20      VMLA.F32 S2,S0,S1
+   \       0x18   0xED8D 0x1A00      VSTR     S2,[SP, #+0]
+   \       0x1C   0xA801             ADD      R0,SP,#+4
+   \       0x1E   0x....'....        BL       _ZN10SusuStringILj5EEC1Ev
+   \       0x22   0x4907             LDR.N    R1,??GetTemperature_2+0xC
+   \       0x24   0x....'....        BL       _ZN10SusuStringILj5EE3SetILj5EEEvRAT__Kc
+   \       0x28   0x466A             MOV      R2,SP
+   \       0x2A   0xA901             ADD      R1,SP,#+4
+   \       0x2C   0x0020             MOVS     R0,R4
+   \       0x2E   0x....'....        BL       _ZSt9make_pairIR10SusuStringILj5EERfESt4pairINSt10_UnrefwrapIT_E4typeENS5_IT0_E4typeEEOS6_OS9_
+   \       0x32   0xBD1F             POP      {R0-R4,PC}       ;; return
+   \                     ??GetTemperature_2:
+   \       0x34   0xC200'0000        DC32     0xc2000000
+   \       0x38   0x3FE6'6666        DC32     0x3fe66666
+   \       0x3C   0x4210'0000        DC32     0x42100000
+   \       0x40   0x....'....        DC32     _ZZNK7Celsius14GetTemperatureEfEs
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp vFormat Fahrenheit::GetTemperature(float) const
+   \                     _ZNK10Fahrenheit14GetTemperatureEf: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0xEDDF 0x0A09      VLDR.W   S1,??GetTemperature_3  ;; 0x3fe66666
+   \        0x8   0xED9F 0x1A09      VLDR.W   S2,??GetTemperature_3+0x4  ;; 0x42000000
+   \        0xC   0xEE00 0x1A20      VMLA.F32 S2,S0,S1
+   \       0x10   0xED8D 0x1A00      VSTR     S2,[SP, #+0]
+   \       0x14   0xA801             ADD      R0,SP,#+4
+   \       0x16   0x....'....        BL       _ZN10SusuStringILj5EEC1Ev
+   \       0x1A   0x4906             LDR.N    R1,??GetTemperature_3+0x8
+   \       0x1C   0x....'....        BL       _ZN10SusuStringILj5EE3SetILj3EEEvRAT__Kc
+   \       0x20   0x466A             MOV      R2,SP
+   \       0x22   0xA901             ADD      R1,SP,#+4
+   \       0x24   0x0020             MOVS     R0,R4
+   \       0x26   0x....'....        BL       _ZSt9make_pairIR10SusuStringILj5EERfESt4pairINSt10_UnrefwrapIT_E4typeENS5_IT0_E4typeEEOS6_OS9_
+   \       0x2A   0xBD1F             POP      {R0-R4,PC}       ;; return
+   \                     ??GetTemperature_3:
+   \       0x2C   0x3FE6'6666        DC32     0x3fe66666
+   \       0x30   0x4200'0000        DC32     0x42000000
+   \       0x34   0x....'....        DC32     _ZZNK10Fahrenheit14GetTemperatureEfEs
+
+   \                                 In section .text, align 2, keep-with-next
+   \   static __code __interwork __vfp <unnamed>::<_ZN41_INTERNAL_19_TemperatureTask_cpp_0b14d268Ut_C1Ev>()
+   \                     _ZN41_INTERNAL_19_TemperatureTask_cpp_0b14d268Ut_C1Ev: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN10SusuStringILj5EEC1Ev
+   \        0xA   0x0020             MOVS     R0,R4
+   \        0xC   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \   static __intrinsic __interwork __vfp void __sti__routine()
+   \                     __sti__routine: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....             LDR.N    R1,??DataTable3_1
+   \        0x4   0x7808             LDRB     R0,[R1, #+0]
+   \        0x6   0x2800             CMP      R0,#+0
+   \        0x8   0xD10C             BNE.N    ??__sti__routine_0
+   \        0xA   0x2001             MOVS     R0,#+1
+   \        0xC   0x7008             STRB     R0,[R1, #+0]
+   \        0xE   0xED9F 0x....      VLDR.W   S0,??DataTable3  ;; 0xbdcccccd
+   \       0x12   0x....'....        BL       expf
+   \       0x16   0xEEF7 0x0A00      VMOV.F32 S1,#1.0
+   \       0x1A   0xEE30 0x0AC0      VSUB.F32 S0,S1,S0
+   \       0x1E   0x....             LDR.N    R0,??DataTable3_2
+   \       0x20   0xED80 0x0A00      VSTR     S0,[R0, #0]
+   \                     ??__sti__routine_0: (+1)
+   \       0x24   0x....             LDR.N    R0,??DataTable3_3
+   \       0x26   0x....'....        BL       _ZN41_INTERNAL_19_TemperatureTask_cpp_0b14d268Ut_C1Ev
+   \       0x2A   0xBD01             POP      {R0,PC}          ;; return
+
+   \                                 In section .bss, align 4
+   \   static __absolute struct <unnamed> TData
+   \                     TData:
+   \        0x0                      DS8 16
+
+   \                                 In section .text, align 4
+   \   __code __interwork __vfp Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Temperature()
+   \                     _ZN11TemperatureIJL_ZN15TemperatureTask10fahrenheitEEL_ZNS0_6kelvinEEL_ZNS0_7celsiusEEEEC1Ev: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN9IVariableC2Ev
+   \        0xA   0x4806             LDR.N    R0,??Temperature_0
+   \        0xC   0x6020             STR      R0,[R4, #+0]
+   \        0xE   0x1D20             ADDS     R0,R4,#+4
+   \       0x10   0x4905             LDR.N    R1,??Temperature_0+0x4
+   \       0x12   0xE891 0x002C      LDM      R1,{R2,R3,R5}
+   \       0x16   0xE880 0x002C      STM      R0,{R2,R3,R5}
+   \       0x1A   0x2000             MOVS     R0,#+0
+   \       0x1C   0x6120             STR      R0,[R4, #+16]
+   \       0x1E   0x0020             MOVS     R0,R4
+   \       0x20   0xBD32             POP      {R1,R4,R5,PC}    ;; return
+   \       0x22   0xBF00             Nop      
+   \                     ??Temperature_0:
+   \       0x24   0x....'....        DC32     _ZTV11TemperatureIJL_ZN15TemperatureTask10fahrenheitEEL_ZNS0_6kelvinEEL_ZNS0_7celsiusEEEE+0x8
+   \       0x28   0x....'....        DC32     ?_1
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::SetNextUnits()
+   \                     _ZN11TemperatureIJL_ZN15TemperatureTask10fahrenheitEEL_ZNS0_6kelvinEEL_ZNS0_7celsiusEEEE12SetNextUnitsEv: (+1)
+   \        0x0   0x6901             LDR      R1,[R0, #+16]
+   \        0x2   0x2903             CMP      R1,#+3
+   \        0x4   0xD203             BCS.N    ??SetNextUnits_0
+   \        0x6   0x6901             LDR      R1,[R0, #+16]
+   \        0x8   0x1C4A             ADDS     R2,R1,#+1
+   \        0xA   0x6102             STR      R2,[R0, #+16]
+   \        0xC   0xE002             B.N      ??SetNextUnits_1
+   \                     ??SetNextUnits_0: (+1)
+   \        0xE   0x2100             MOVS     R1,#+0
+   \       0x10   0x6101             STR      R1,[R0, #+16]
+   \       0x12   0x6901             LDR      R1,[R0, #+16]
+   \                     ??SetNextUnits_1: (+1)
+   \       0x14   0x6901             LDR      R1,[R0, #+16]
+   \       0x16   0x2903             CMP      R1,#+3
+   \       0x18   0xD101             BNE.N    ??SetNextUnits_2
+   \       0x1A   0x2100             MOVS     R1,#+0
+   \       0x1C   0x6101             STR      R1,[R0, #+16]
+   \                     ??SetNextUnits_2: (+1)
+   \       0x1E   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp vFormat Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Get()
+   \                     _ZN11TemperatureIJL_ZN15TemperatureTask10fahrenheitEEL_ZNS0_6kelvinEEL_ZNS0_7celsiusEEEE3GetEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x4903             LDR.N    R1,??Get_3
+   \        0x4   0xF111 0x020C      ADDS     R2,R1,#+12
+   \        0x8   0x....'....        BL       _ZSt9make_pairIR10SusuStringILj5EERfESt4pairINSt10_UnrefwrapIT_E4typeENS5_IT0_E4typeEEOS6_OS9_
+   \        0xC   0xBD01             POP      {R0,PC}          ;; return
+   \        0xE   0xBF00             Nop      
+   \                     ??Get_3:
+   \       0x10   0x....'....        DC32     TData
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp void Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Calculate(float)
+   \                     _ZN11TemperatureIJL_ZN15TemperatureTask10fahrenheitEEL_ZNS0_6kelvinEEL_ZNS0_7celsiusEEEE9CalculateEf: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0xED2D 0x8B02      VPUSH    {D8}
+   \        0x6   0xB08A             SUB      SP,SP,#+40
+   \        0x8   0xEEB0 0x8A40      VMOV.F32 S16,S0
+   \        0xC   0x6901             LDR      R1,[R0, #+16]
+   \        0xE   0x1D00             ADDS     R0,R0,#+4
+   \       0x10   0x....'....        BL       _ZNSt5arrayIPK6IUnitsLj3EEixEj
+   \       0x14   0x6801             LDR      R1,[R0, #+0]
+   \       0x16   0xEEB0 0x0A48      VMOV.F32 S0,S16
+   \       0x1A   0xA806             ADD      R0,SP,#+24
+   \       0x1C   0x680A             LDR      R2,[R1, #+0]
+   \       0x1E   0x6812             LDR      R2,[R2, #+0]
+   \       0x20   0x4790             BLX      R2
+   \       0x22   0xA802             ADD      R0,SP,#+8
+   \       0x24   0xA906             ADD      R1,SP,#+24
+   \       0x26   0x2210             MOVS     R2,#+16
+   \       0x28   0x....'....        BL       __aeabi_memcpy4
+   \       0x2C   0xA806             ADD      R0,SP,#+24
+   \       0x2E   0x....'....        BL       _ZN10SusuStringILj5EEC1Ev
+   \       0x32   0xA802             ADD      R0,SP,#+8
+   \       0x34   0x....'....        BL       _ZNK10SusuStringILj5EE9GetStringEv
+   \       0x38   0x0002             MOVS     R2,R0
+   \       0x3A   0x4907             LDR.N    R1,??Calculate_0
+   \       0x3C   0x4668             MOV      R0,SP
+   \       0x3E   0x....'....        BL       sprintf
+   \       0x42   0x4C06             LDR.N    R4,??Calculate_0+0x4
+   \       0x44   0x4669             MOV      R1,SP
+   \       0x46   0x0020             MOVS     R0,R4
+   \       0x48   0x....'....        BL       _ZN10SusuStringILj5EE3SetILj5EEEvRAT__Kc
+   \       0x4C   0x9805             LDR      R0,[SP, #+20]
+   \       0x4E   0x60E0             STR      R0,[R4, #+12]
+   \       0x50   0xB00A             ADD      SP,SP,#+40
+   \       0x52   0xECBD 0x8B02      VPOP     {D8}
+   \       0x56   0xBD10             POP      {R4,PC}          ;; return
+   \                     ??Calculate_0:
+   \       0x58   0x....'....        DC32     _ZZN11TemperatureIJL_ZN15TemperatureTask10fahrenheitEEL_ZNS0_6kelvinEEL_ZNS0_7celsiusEEEE9CalculateEfEs
+   \       0x5C   0x....'....        DC32     TData
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp ImyButton::subobject ImyButton()
+   \                     _ZN9ImyButtonC2Ev: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZN9ImyButtonC1Ev
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp ImyButton::ImyButton()
+   \                     _ZN9ImyButtonC1Ev: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .rodata, align 4
+   \   __absolute Fahrenheit const TemperatureTask::fahrenheit
+   \                     _ZN15TemperatureTask10fahrenheitE:
+   \        0x0   0x....'....        DC32 _ZTV10Fahrenheit + 0x8
+
+   \                                 In section .rodata, align 4
+   \   __absolute Kelvin const TemperatureTask::kelvin
+   \                     _ZN15TemperatureTask6kelvinE:
+   \        0x0   0x....'....        DC32 _ZTV6Kelvin + 0x8
+
+   \                                 In section .rodata, align 4
+   \   __absolute Celsius const TemperatureTask::celsius
+   \                     _ZN15TemperatureTask7celsiusE:
+   \        0x0   0x....'....        DC32 _ZTV7Celsius + 0x8
+      2          #include "TemperatureDirector.hpp"
+      3          #include <iostream>
+      4          
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __code __interwork __vfp TemperatureTask::subobject TemperatureTask(TemperatureDirector &)
+   \                     _ZN15TemperatureTaskC2ER19TemperatureDirector: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZN15TemperatureTaskC1ER19TemperatureDirector
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+      5          TemperatureTask::TemperatureTask(TemperatureDirector& tempdir): myTempDir(tempdir) // , OsWrapper::Event& event, myTempEvent(event) 
+      6          {
+   \                     _ZN15TemperatureTaskC1ER19TemperatureDirector: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+   \        0x6   0x0020             MOVS     R0,R4
+   \        0x8   0x....'....        BL       _ZN9OsWrapper6ThreadILj512EEC2Ev
+   \        0xC   0xF604 0x005C      ADDW     R0,R4,#+2140
+   \       0x10   0x....'....        BL       _ZN9ImyButtonC2Ev
+   \       0x14   0x....             LDR.N    R0,??DataTable3_4
+   \       0x16   0xF110 0x0108      ADDS     R1,R0,#+8
+   \       0x1A   0x6021             STR      R1,[R4, #+0]
+   \       0x1C   0x3018             ADDS     R0,R0,#+24
+   \       0x1E   0xF8C4 0x085C      STR      R0,[R4, #+2140]
+   \       0x22   0xF514 0x6006      ADDS     R0,R4,#+2144
+   \       0x26   0x....'....        BL       _ZN11TemperatureIJL_ZN15TemperatureTask10fahrenheitEEL_ZNS0_6kelvinEEL_ZNS0_7celsiusEEEEC1Ev
+   \       0x2A   0xF8C4 0x5874      STR      R5,[R4, #+2164]
+      7          }
+   \       0x2E   0x0020             MOVS     R0,R4
+   \       0x30   0xBD32             POP      {R1,R4,R5,PC}    ;; return
+      8          
+
+   \                                 In section .text, align 2, keep-with-next
+      9          void TemperatureTask::Execute() {
+   \                     _ZN15TemperatureTask7ExecuteEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \                     ??Execute_0: (+1)
+   \        0x4   0x....             LDR.N    R2,??DataTable3_5
+   \        0x6   0xE9D2 0x0100      LDRD     R0,R1,[R2, #+0]
+     10            for(;;) 
+     11            {
+     12            Sleep(1000ms);
+   \        0xA   0x....'....        BL       _ZN9OsWrapper7IThread5SleepENSt6chrono8durationIxSt5ratioILx1ELx1000EEEE
+     13            temperature.Calculate(myTempDir.Calcute());
+   \        0xE   0xF8D4 0x0874      LDR      R0,[R4, #+2164]
+   \       0x12   0x....'....        BL       _ZN19TemperatureDirector7CalcuteEv
+   \       0x16   0xF514 0x6006      ADDS     R0,R4,#+2144
+   \       0x1A   0x....'....        BL       _ZN11TemperatureIJL_ZN15TemperatureTask10fahrenheitEEL_ZNS0_6kelvinEEL_ZNS0_7celsiusEEEE9CalculateEf
+   \       0x1E   0xE7F1             B.N      ??Execute_0
+     14            }
+     15          }
+     16          
+
+   \                                 In section .text, align 2, keep-with-next
+     17          void TemperatureTask::ButtonPushed()
+     18          {
+   \                     _ZN15TemperatureTask12ButtonPushedEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     19            
+     20            temperature.SetNextUnits();
+   \        0x2   0xF510 0x6006      ADDS     R0,R0,#+2144
+   \        0x6   0x....'....        BL       _ZN11TemperatureIJL_ZN15TemperatureTask10fahrenheitEEL_ZNS0_6kelvinEEL_ZNS0_7celsiusEEEE12SetNextUnitsEv
+     21          }
+   \        0xA   0xBD01             POP      {R0,PC}          ;; return
+     22          
+
+   \                                 In section .text, align 2, keep-with-next
+     23          float TemperatureTask::GetOldTemperature() {
+   \                     _ZN15TemperatureTask17GetOldTemperatureEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     24            return myTempDir.GetOldFilterValue();
+   \        0x2   0xF8D0 0x0874      LDR      R0,[R0, #+2164]
+   \        0x6   0x....'....        BL       _ZN19TemperatureDirector17GetOldFilterValueEv
+   \        0xA   0xBD01             POP      {R0,PC}          ;; return
+     25          }
+     26          
+
+   \                                 In section .text, align 2, keep-with-next
+     27          vFormat TemperatureTask::GetData() {
+   \                     _ZN15TemperatureTask7GetDataEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     28           return temperature.Get();
+   \        0x2   0xF511 0x6106      ADDS     R1,R1,#+2144
+   \        0x6   0x....'....        BL       _ZN11TemperatureIJL_ZN15TemperatureTask10fahrenheitEEL_ZNS0_6kelvinEEL_ZNS0_7celsiusEEEE3GetEv
+   \        0xA   0xBD01             POP      {R0,PC}          ;; return
+     29           std::make_pair((temperature.Get()).first, (temperature.Get()).second);
+                  ^
+Warning[Pe111]: statement is unreachable
+     30          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \        0x0   0xBDCC'CCCD        DC32     0xbdcccccd
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_1:
+   \        0x0   0x....'....        DC32     _ZGVN6Filter3tayE
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_2:
+   \        0x0   0x....'....        DC32     _ZN6Filter3tayE
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_3:
+   \        0x0   0x....'....        DC32     TData
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_4:
+   \        0x0   0x....'....        DC32     _ZTV15TemperatureTask
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_5:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __interwork __vfp void TemperatureTask::ButtonPushed for ImyButton/-2140/()
+   \                     _ZThn2140_N15TemperatureTask12ButtonPushedEv: (+1)
+   \        0x0   0xF6A0 0x005C      SUBW     R0,R0,#+2140
+   \        0x4                      REQUIRE _ZN15TemperatureTask12ButtonPushedEv
+   \        0x4                      ;; // Fall through to label TemperatureTask::ButtonPushed()
+
+   \                                 In section .rodata, align 8
+   \                     ?_0:
+   \        0x0   0x0000'0000'0      DC64 1'000
+   \              000'03E8     
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   <unnamed>::<_ZN41_INTERNAL_19_TemperatureTask_cpp_0b14d268Ut_C1Ev>()
+         8   -> SusuString<5U>::SusuString()
+      24   Celsius::GetTemperature(float) const
+        24   -> SusuString<5U>::Set<5U>(char const (&)[5])
+        24   -> SusuString<5U>::SusuString()
+        24   -> std::make_pair<SusuString<5U> &, float &>(SusuString<5U> &, float &)
+      24   Fahrenheit::GetTemperature(float) const
+        24   -> SusuString<5U>::Set<3U>(char const (&)[3])
+        24   -> SusuString<5U>::SusuString()
+        24   -> std::make_pair<SusuString<5U> &, float &>(SusuString<5U> &, float &)
+       0   FieldValueBase<I2C1_CR1_ACK_Values<I2C1::CR1, 10U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 0U>::Set<ReadWriteMode, void>()
+       0   FieldValueBase<I2C1_CR1_ACK_Values<I2C1::CR1, 10U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+       0   FieldValueBase<I2C1_CR1_POS_Values<I2C1::CR1, 11U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+       0   FieldValueBase<I2C1_CR1_START_Values<I2C1::CR1, 8U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+       0   FieldValueBase<I2C1_CR1_STOP_Values<I2C1::CR1, 9U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+       0   FieldValueBase<I2C1_SR1_ADDR_Values<I2C1::SR1, 1U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+       0   FieldValueBase<I2C1_SR1_BTF_Values<I2C1::SR1, 2U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+       0   FieldValueBase<I2C1_SR1_SB_Values<I2C1::SR1, 0U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+       0   FieldValueBase<I2C1_SR1_TxE_Values<I2C1::SR1, 7U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+       0   Filter::GetOldFilteredValue(float)
+       0   Filter::Update(float)
+       0   IVariable::IVariable()
+       8   IVariable::subobject IVariable()
+         8   -> IVariable::IVariable()
+       0   ImyButton::ImyButton()
+       8   ImyButton::subobject ImyButton()
+         8   -> ImyButton::ImyButton()
+      24   Kelvin::GetTemperature(float) const
+        24   -> SusuString<5U>::Set<3U>(char const (&)[3])
+        24   -> SusuString<5U>::SusuString()
+        24   -> std::make_pair<SusuString<5U> &, float &>(SusuString<5U> &, float &)
+       0   OsWrapper::IThread::IThread()
+      24   OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+        24   -> OsWrapper::RtosWrapper::wSleep(uint32_t)
+        24   -> std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+        24   -> std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+       8   OsWrapper::IThread::subobject IThread()
+         8   -> OsWrapper::IThread::IThread()
+       8   OsWrapper::RtosWrapper::wSleep(uint32_t)
+         8   -> vTaskDelay
+       8   OsWrapper::Thread<512U>::Thread()
+         8   -> OsWrapper::IThread::subobject IThread()
+       8   OsWrapper::Thread<512U>::subobject Thread()
+         8   -> OsWrapper::Thread<512U>::Thread()
+       0   RegisterBase<1073763344U, 32U, ReadWriteMode>::Get<ReadWriteMode, void>()
+       0   RegisterBase<1073763344U, 32U, ReadWriteMode>::Write<ReadWriteMode, void>(uint32_t)
+       0   RegisterBase<1073763348U, 32U, ReadWriteMode>::Get<ReadWriteMode, void>()
+       0   RegisterBase<1073763352U, 32U, ReadMode>::Get<ReadMode, void>()
+       8   SMBus<I2C1>::ReadWord(uint8_t)
+         8   -> FieldValueBase<I2C1_CR1_ACK_Values<I2C1::CR1, 10U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 0U>::Set<ReadWriteMode, void>()
+         8   -> FieldValueBase<I2C1_CR1_ACK_Values<I2C1::CR1, 10U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+         8   -> FieldValueBase<I2C1_CR1_POS_Values<I2C1::CR1, 11U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+         8   -> FieldValueBase<I2C1_CR1_START_Values<I2C1::CR1, 8U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+         8   -> FieldValueBase<I2C1_CR1_STOP_Values<I2C1::CR1, 9U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+         8   -> FieldValueBase<I2C1_SR1_ADDR_Values<I2C1::SR1, 1U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+         8   -> FieldValueBase<I2C1_SR1_BTF_Values<I2C1::SR1, 2U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+         8   -> FieldValueBase<I2C1_SR1_SB_Values<I2C1::SR1, 0U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+         8   -> FieldValueBase<I2C1_SR1_TxE_Values<I2C1::SR1, 7U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+         8   -> RegisterBase<1073763344U, 32U, ReadWriteMode>::Get<ReadWriteMode, void>()
+         8   -> RegisterBase<1073763344U, 32U, ReadWriteMode>::Write<ReadWriteMode, void>(uint32_t)
+         8   -> RegisterBase<1073763348U, 32U, ReadWriteMode>::Get<ReadWriteMode, void>()
+         8   -> RegisterBase<1073763352U, 32U, ReadMode>::Get<ReadMode, void>()
+       8   SusuString<5U>::GetString() const
+         8   -> std::array<char, 5U>::data() const
+       8   SusuString<5U>::Set<3U>(char const (&)[3])
+         8   -> std::array<char, 5U>::begin()
+         8   -> std::copy<char const *, std::array<char, 5U>::iterator>(char const *, char const *, std::array<char, 5U>::iterator)
+       8   SusuString<5U>::Set<5U>(char const (&)[5])
+         8   -> std::array<char, 5U>::begin()
+         8   -> std::copy<char const *, std::array<char, 5U>::iterator>(char const *, char const *, std::array<char, 5U>::iterator)
+       0   SusuString<5U>::SusuString()
+      56   Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Calculate(float)
+        56   -- Indirect call
+        56   -> SusuString<5U>::GetString() const
+        56   -> SusuString<5U>::Set<5U>(char const (&)[5])
+        56   -> SusuString<5U>::SusuString()
+        56   -> __aeabi_memcpy4
+        56   -> sprintf
+        56   -> std::array<IUnits const *, 3U>::operator[](size_t)
+       8   Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Get()
+         8   -> std::make_pair<SusuString<5U> &, float &>(SusuString<5U> &, float &)
+       0   Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::SetNextUnits()
+      16   Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Temperature()
+        16   -> IVariable::subobject IVariable()
+       8   TemperatureDirector::Calcute()
+         8   -> Filter::Update(float)
+         8   -> TemperatureSensor<SMBus<I2C1>>::GetTemperature()
+       8   TemperatureDirector::GetOldFilterValue()
+         8   -> Filter::GetOldFilteredValue(float)
+       8   TemperatureSensor<SMBus<I2C1>>::GetTemperature()
+         8   -> SMBus<I2C1>::ReadWord(uint8_t)
+       0   TemperatureTask::ButtonPushed for ImyButton/-2140/()
+         0   -> TemperatureTask::ButtonPushed()
+       8   TemperatureTask::ButtonPushed()
+         8   -> Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::SetNextUnits()
+       8   TemperatureTask::Execute()
+         8   -> OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+         8   -> Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Calculate(float)
+         8   -> TemperatureDirector::Calcute()
+       8   TemperatureTask::GetData()
+         8   -> Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Get()
+       8   TemperatureTask::GetOldTemperature()
+         8   -> TemperatureDirector::GetOldFilterValue()
+      16   TemperatureTask::TemperatureTask(TemperatureDirector &)
+        16   -> ImyButton::subobject ImyButton()
+        16   -> OsWrapper::Thread<512U>::subobject Thread()
+        16   -> Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Temperature()
+       8   TemperatureTask::subobject TemperatureTask(TemperatureDirector &)
+         8   -> TemperatureTask::TemperatureTask(TemperatureDirector &)
+       8   __sti__routine()
+         8   -> <unnamed>::<_ZN41_INTERNAL_19_TemperatureTask_cpp_0b14d268Ut_C1Ev>()
+         8   -> expf
+       0   std::_Addressof<char>(char &, std::false_type)
+       0   std::_Array_const_iterator<char, 5U>::_Array_const_iterator(char const *, size_t)
+       0   std::_Array_const_iterator<char, 5U>::_Rechecked(char const *)
+       0   std::_Array_const_iterator<char, 5U>::_Unchecked() const
+       8   std::_Array_const_iterator<char, 5U>::subobject _Array_const_iterator(char const *, size_t)
+         8   -> std::_Array_const_iterator<char, 5U>::_Array_const_iterator(char const *, size_t)
+       8   std::_Array_iterator<char, 5U>::_Array_iterator(char *, size_t)
+         8   -> std::_Array_const_iterator<char, 5U>::subobject _Array_const_iterator(char const *, size_t)
+       8   std::_Array_iterator<char, 5U>::_Rechecked(char *)
+         8   -> std::_Array_const_iterator<char, 5U>::_Rechecked(char const *)
+       8   std::_Array_iterator<char, 5U>::_Unchecked() const
+         8   -> std::_Array_const_iterator<char, 5U>::_Unchecked() const
+      16   std::_Copy_impl<char const *, char *>(char const *, char const *, char *)
+        16   -> std::_Copy_impl<char const *, char *>(char const *, char const *, char *, std::_Scalar_ptr_iterator_tag)
+        16   -> std::_Ptr_cat(char const *, char *)
+      16   std::_Copy_impl<char const *, char *>(char const *, char const *, char *, std::_Scalar_ptr_iterator_tag)
+        16   -> __aeabi_memmove
+       0   std::_Ptr_cat(char const *, char *)
+       8   std::_Rechecked<char, 5U>(std::_Array_iterator<char, 5U> &, char *)
+         8   -> std::_Array_iterator<char, 5U>::_Rechecked(char *)
+       0   std::_Unchecked<char const *>(char const *)
+       8   std::_Unchecked<char, 5U>(std::_Array_iterator<char, 5U>)
+         8   -> std::_Array_iterator<char, 5U>::_Unchecked() const
+       8   std::addressof<char>(char &)
+         8   -> std::_Addressof<char>(char &, std::false_type)
+       0   std::array<IUnits const *, 3U>::operator[](size_t)
+       8   std::array<char, 5U>::begin()
+         8   -> std::_Array_iterator<char, 5U>::_Array_iterator(char *, size_t)
+         8   -> std::addressof<char>(char &)
+       0   std::array<char, 5U>::data() const
+       0   std::chrono::duration<__int64_t, std::milli>::count() const
+       0   std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+       0   std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+      16   std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+        16   -> std::chrono::duration<__int64_t, std::milli>::count() const
+        16   -> std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+        16 __aeabi_ldivmod
+      24   std::copy<char const *, std::array<char, 5U>::iterator>(char const *, char const *, std::array<char, 5U>::iterator)
+        24   -> std::_Copy_impl<char const *, char *>(char const *, char const *, char *)
+        24   -> std::_Rechecked<char, 5U>(std::_Array_iterator<char, 5U> &, char *)
+        24   -> std::_Unchecked<char const *>(char const *)
+        24   -> std::_Unchecked<char, 5U>(std::_Array_iterator<char, 5U>)
+       0   std::forward<SusuString<5U> &>(SusuString<5U> &)
+       0   std::forward<float &>(float &)
+      32   std::make_pair<SusuString<5U> &, float &>(SusuString<5U> &, float &)
+        32   -> __aeabi_memcpy4
+        32   -> std::forward<SusuString<5U> &>(SusuString<5U> &)
+        32   -> std::forward<float &>(float &)
+        32   -> std::pair<SusuString<5U>, float>::pair<SusuString<5U> &, float &, void>(SusuString<5U> &, float &)
+      16   std::pair<SusuString<5U>, float>::pair<SusuString<5U> &, float &, void>(SusuString<5U> &, float &)
+        16   -> std::forward<SusuString<5U> &>(SusuString<5U> &)
+        16   -> std::forward<float &>(float &)
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      14  <unnamed>::<_ZN41_INTERNAL_19_TemperatureTask_cpp_0b14d268Ut_C1Ev>()
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_2
+       4  ??DataTable3_3
+       4  ??DataTable3_4
+       4  ??DataTable3_5
+       8  ?_0
+      68  Celsius::GetTemperature(float) const
+      56  Fahrenheit::GetTemperature(float) const
+      16  FieldValueBase<I2C1_CR1_ACK_Values<I2C1::CR1, 10U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 0U>::Set<ReadWriteMode, void>()
+      20  FieldValueBase<I2C1_CR1_ACK_Values<I2C1::CR1, 10U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+      20  FieldValueBase<I2C1_CR1_POS_Values<I2C1::CR1, 11U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+      20  FieldValueBase<I2C1_CR1_START_Values<I2C1::CR1, 8U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+      20  FieldValueBase<I2C1_CR1_STOP_Values<I2C1::CR1, 9U, 1U, ReadWriteMode, I2C1::I2C1CR1Base>, I2C1::I2C1CR1Base, 1U>::Set<ReadWriteMode, void>()
+      24  FieldValueBase<I2C1_SR1_ADDR_Values<I2C1::SR1, 1U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+      24  FieldValueBase<I2C1_SR1_BTF_Values<I2C1::SR1, 2U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+      20  FieldValueBase<I2C1_SR1_SB_Values<I2C1::SR1, 0U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+      24  FieldValueBase<I2C1_SR1_TxE_Values<I2C1::SR1, 7U, 1U, ReadMode, I2C1::I2C1SR1Base>, I2C1::I2C1SR1Base, 0U>::IsSet<ReadMode, void>()
+      32  Filter::GetOldFilteredValue(float)
+       4  Filter::RC
+      32  Filter::Update(float)
+       4  Filter::dt
+       4  Filter::tay
+       2  IVariable::IVariable()
+       8  IVariable::subobject IVariable()
+       2  ImyButton::ImyButton()
+       8  ImyButton::subobject ImyButton()
+      80  Kelvin::GetTemperature(float) const
+      10  OsWrapper::IThread::IThread()
+      26  OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+       8  OsWrapper::IThread::subobject IThread()
+       8  OsWrapper::RtosWrapper::wSleep(uint32_t)
+      14  OsWrapper::Thread<512U>::Thread()
+       8  OsWrapper::Thread<512U>::subobject Thread()
+      12  RegisterBase<1073763344U, 32U, ReadWriteMode>::Get<ReadWriteMode, void>()
+      12  RegisterBase<1073763344U, 32U, ReadWriteMode>::Write<ReadWriteMode, void>(uint32_t)
+      12  RegisterBase<1073763348U, 32U, ReadWriteMode>::Get<ReadWriteMode, void>()
+      12  RegisterBase<1073763352U, 32U, ReadMode>::Get<ReadMode, void>()
+     140  SMBus<I2C1>::ReadWord(uint8_t)
+       8  SusuString<5U>::GetString() const
+      20  SusuString<5U>::Set<3U>(char const (&)[3])
+      20  SusuString<5U>::Set<5U>(char const (&)[5])
+       6  SusuString<5U>::SusuString()
+      16  TData
+      96  Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Calculate(float)
+      20  Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Get()
+      32  Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::SetNextUnits()
+      44  Temperature<TemperatureTask::fahrenheit, TemperatureTask::kelvin, TemperatureTask::celsius>::Temperature()
+      30  TemperatureDirector::Calcute()
+      14  TemperatureDirector::GetOldFilterValue()
+      40  TemperatureSensor<SMBus<I2C1>>::GetTemperature()
+       4  TemperatureTask::ButtonPushed for ImyButton/-2140/()
+      12  TemperatureTask::ButtonPushed()
+      32  TemperatureTask::Execute()
+      12  TemperatureTask::GetData()
+      12  TemperatureTask::GetOldTemperature()
+      50  TemperatureTask::TemperatureTask(TemperatureDirector &)
+       4  TemperatureTask::celsius
+       4  TemperatureTask::fahrenheit
+       4  TemperatureTask::kelvin
+       8  TemperatureTask::subobject TemperatureTask(TemperatureDirector &)
+      44  __sti__routine()
+       2  std::_Addressof<char>(char &, std::false_type)
+       6  std::_Array_const_iterator<char, 5U>::_Array_const_iterator(char const *, size_t)
+       4  std::_Array_const_iterator<char, 5U>::_Rechecked(char const *)
+       4  std::_Array_const_iterator<char, 5U>::_Unchecked() const
+       8  std::_Array_const_iterator<char, 5U>::subobject _Array_const_iterator(char const *, size_t)
+      14  std::_Array_iterator<char, 5U>::_Array_iterator(char *, size_t)
+      14  std::_Array_iterator<char, 5U>::_Rechecked(char *)
+       8  std::_Array_iterator<char, 5U>::_Unchecked() const
+      30  std::_Copy_impl<char const *, char *>(char const *, char const *, char *)
+      26  std::_Copy_impl<char const *, char *>(char const *, char const *, char *, std::_Scalar_ptr_iterator_tag)
+       2  std::_Ptr_cat(char const *, char *)
+       8  std::_Rechecked<char, 5U>(std::_Array_iterator<char, 5U> &, char *)
+       2  std::_Unchecked<char const *>(char const *)
+      10  std::_Unchecked<char, 5U>(std::_Array_iterator<char, 5U>)
+       8  std::addressof<char>(char &)
+       6  std::array<IUnits const *, 3U>::operator[](size_t)
+      20  std::array<char, 5U>::begin()
+       2  std::array<char, 5U>::data() const
+       6  std::chrono::duration<__int64_t, std::milli>::count() const
+       4  std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+       6  std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+      28  std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+       1  std::chrono::steady_clock::is_steady
+       1  std::chrono::system_clock::is_monotonic
+       1  std::chrono::system_clock::is_steady
+      48  std::copy<char const *, std::array<char, 5U>::iterator>(char const *, char const *, std::array<char, 5U>::iterator)
+       2  std::forward<SusuString<5U> &>(SusuString<5U> &)
+       2  std::forward<float &>(float &)
+      42  std::make_pair<SusuString<5U> &, float &>(SusuString<5U> &, float &)
+      34  std::pair<SusuString<5U>, float>::pair<SusuString<5U> &, float &, void>(SusuString<5U> &, float &)
+     513  -- Other
+
+ 
+    21 bytes in section .bss
+     4 bytes in section .init_array
+   539 bytes in section .rodata
+ 1'626 bytes in section .text
+ 
+ 216 bytes of CODE  memory (+ 1'414 bytes shared)
+  20 bytes of CONST memory (+   519 bytes shared)
+  16 bytes of DATA  memory (+     5 bytes shared)
+
+Errors: none
+Warnings: 1
